@@ -79,6 +79,10 @@ letter-spacing: 3px;
 font-weight: 600;
 text-transform: uppercase;
 }
+.product-title h3{
+    color: #035afc;
+}
+
 .clr {
 color: #fff;
 }
@@ -228,14 +232,15 @@ transition: all 1.5s ease;
 /*-- //nav--*/
 /*-- //header --*/ 
 /*-- banner --*/ 
-.one-img{  background: url(../images/b1.jpg)no-repeat center;}
-.two-img{  background: url(../images/b2.jpg)no-repeat center;}
-.three-img{  background: url(../images/b3.jpg)no-repeat center;} 
+.one-img{  background: url(https://www.deeterelectronics.com/us/wp-content/uploads/sites/2/oil-refinery-chemical-petrochemical-plant-1.jpg)no-repeat center;}
+.two-img{  background: url(https://assets.ey.com/content/dam/ey-sites/ey-com/en_us/topics/oil-and-gas/ey-aerial-view-oil-terminal-is-industrial-facility-for-storage-tank.jpg)no-repeat center;}
+.three-img{  background: url(https://images.pexels.com/photos/87236/pexels-photo-87236.jpeg?cs=srgb&dl=pexels-zukiman-mohamad-87236.jpg&fm=jpg)no-repeat center; ;} 
 .slider-img{  background-size: cover;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 -ms-background-size: cover;
+opacity: 0.8;
 min-height: 800px;}  
 .rslides {
 position: relative;
@@ -244,6 +249,11 @@ overflow: hidden;
 width: 100%;
 padding: 0;
 margin: 0;
+}
+.ex{
+    position: relative;
+    top: 150px;
+    overflow: visible;
 }
 .rslides li {
 -webkit-backface-visibility: hidden;
@@ -368,22 +378,23 @@ padding: 25em 0 0;
 }
 .slider-info h5 {
 font-size: 51px;
-color: #035afc;
+/* color: #035afc;   */
+color: #ffffff;
 font-weight: 700;
-width:51%;
-padding: 5px 13px;
-background: #ffffff;
+/* width:51%; */
+padding: 5px 0px;
+/* background: #ffffff; */
 letter-spacing: 3px;
 margin-bottom: 11px;
 /* text-shadow: 1px 1px 7px #151212; */
 }
 .slider-info p {
 color: #fff;
-font-size: 15px;
-text-shadow: 2px 2px 8px #000;
+font-size: 16px;
+/* text-shadow: 2px 2px 8px #000; */
 padding-right: 36em;
 line-height: 27px;
-font-weight: 300;
+font-weight: 500;
 letter-spacing: 0px;
 }
 /*.callbacks_nav {
@@ -470,7 +481,7 @@ border: 4px solid #035afc;
 /*-- inner-banner --*/ 
 .inner_page-banner {
 text-align: center;
-background: url(../images/b1.jpg) no-repeat center;
+background: url(https://www.deeterelectronics.com/us/wp-content/uploads/sites/2/oil-refinery-chemical-petrochemical-plant-1.jpg) no-repeat center;
 background-size: cover;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -563,6 +574,7 @@ margin-top: 17px;
 color:#035afc;
 }
 /*-- //about --*/
+
 /*--fun-facts--*/
 .fun-facts,.comments{  
 background: -webkit-linear-gradient(to left,#fff172,#035afc);
@@ -644,8 +656,8 @@ background:rgba(255, 255, 255, 0.7);
 /*--blog--*/
 .blog-slider-wls h4 a,.service-list-grid h4,.ser-list-w3layouts h4
 ,.abut-inner-wls-head h4 {
-color: #d50302;
-font-size: 22px;
+color: #000;
+font-size: 18px;
 font-weight: 600;
 }
 .news-date ul li a {
@@ -804,7 +816,7 @@ width:100%;
 font-size: 14px;
 color: #000;
 padding: .8em .8em;
-border: 1px solid #d70f07;
+/* border: 1px solid #d70f07; */
 background: #f1f1f1;
 outline: none;
 border-radius: 0px;
@@ -907,12 +919,13 @@ background-color: #007bff;
 transition: width .6s ease;
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
-font-size: 12px;
-color:#7d7d7d;
+font-size: 14px;
+color:#000;
 border-top: none !important;
 }
+
 .table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
-padding: 15px!important;
+/* padding: 15px!important; */
 }
 /*--//Typography-- */
 /*--Footer--*/
@@ -1367,6 +1380,10 @@ margin: 20px 0px;
 .w3layouts-right-side-img:nth-child(2) {
 margin: 25px 0px;
 }
+/* .product-content{
+ padding-left: 50px;
+ pa
+} */
 .contact-forms textarea {
 height: 10em;
 }
